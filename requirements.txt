@@ -8,5 +8,4 @@ pymongo
 motor
 pillow
 numpy
-MukeshAPI
 lxml[html_clean]
