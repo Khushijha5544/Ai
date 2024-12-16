@@ -18,7 +18,7 @@ async def Chatgpt_start():
         importlib.import_module("Chatgpt.modules." + all_module)
 
     LOGGER.info(f"@{Mukesh.username} Started.")
-    await Mukesh.send_photo(OWNER_ID,START_IMG,"I am Alive")
+    await Mukesh.send_photo("I am Alive")
     await idle()
 
 
